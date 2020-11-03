@@ -1,5 +1,5 @@
 let log = console.log;
-function AutoFillCheck(cep)
+function AutoPreencherEndereco(cep)
 {
     log("função em desenvolvimento");
     if(cep.length > 1){

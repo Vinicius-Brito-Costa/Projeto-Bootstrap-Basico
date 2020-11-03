@@ -4,59 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>Pagina Principal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/configuracao_basica.css">
     <style>
-        .parallax {
-            text-align: center;
-            vertical-align: middle;
-            color: white;
-            /* The image used */
-            background-image: url("imagens/index/bg1.png");
-
-            /* Full height */
-            height: 20vw;
-
-            /* Create the parallax scrolling effect */
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .parallax h1 {
-            font-size: 10vw;
-        }
-
-        .parallax span {
-            font-size: 2vw;
-            display: block;
-        }
-
-        .parallax2 {
-            text-align: center;
-            vertical-align: middle;
-            color: white;
-            /* The image used */
-            background-image: url("imagens/index/mobo.jpg");
-
-            /* Full height */
-            height: 20vw;
-
-            /* Create the parallax scrolling effect */
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .parallax2 span {
-            vertical-align: middle;
-            font-size: 5vw;
+        body {
+            margin: 0;
         }
 
         .comentario {
-            border-left: 4px solid white;
-            border-right: 4px solid white;
+            border-left: 15px solid white;
         }
 
         .texto {
@@ -67,7 +23,6 @@
 
         main {
             padding-top: 80px;
-            min-height: auto;
         }
     </style>
     <!-- Bootstrap -->
@@ -77,12 +32,6 @@
 <body>
     <?php require("pages/header.php") ?>
     <main class="container-fluid mx-0 px-0">
-        <div>
-            <div class="parallax my-auto justify-content-center">
-                <h1 class="align-middle">Full Stack</h1>
-                <span class="align-middle">Se alguem está procurando nós estamos vendendo.</p>
-            </div>
-        </div>
         <div class="comentario bg-dark">
             <div class="texto">
                 <h1>Seja bem vindo a Full Stack</h1>
@@ -90,11 +39,7 @@
                 <p>O e-commerce é um dos sites mais acessados do país trazendo produtos e atendimento de alta qualidade.</p>
             </div>
         </div>
-        <div>
-            <div class="parallax2 row justify-items-middle">
-                <span class="col align-middle">PLACEHOLDER</p>
-            </div>
-        </div>
+        <h1 class="text-white text-center">Produtos em destaque</h1>
 
     </main>
     <?php include("pages/footer.php"); ?>

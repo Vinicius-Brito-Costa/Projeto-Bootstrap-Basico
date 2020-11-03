@@ -9,17 +9,17 @@
         <div class="collapse navbar-collapse justify-content-end" id="navBarSite">
             <ul class="navbar-nav">
                 <li class="nav-item mx-4">
-                    <a href="products.php" class="nav-link">
+                    <a href="produtos.php" class="nav-link">
                         <span>_PRODUTOS</span>
                     </a>
                 </li>
                 <li class="nav-item mx-4">
-                    <a href="contact.php" class="nav-link">
+                    <a href="contato.php" class="nav-link">
                         <span>_CONTATO</span>
                     </a>
                 </li>
                 <li class="nav-item mx-4">
-                    <a href="about.php" class="nav-link">
+                    <a href="sobre.php" class="nav-link">
                         <span>_SOBRE</span>
                     </a>
                 </li>

@@ -71,7 +71,7 @@ function ChecarVazio()
     let atual = document.getElementsByClassName("preco-atual");
     for(i = 0; i< promo.length; i++)
     {
-        if(promo[i].innerHTML == "")
+        if(promo[i].innerHTML == "<p></p>")
         {
             promo[i].style = "display: none";
             atual[i].style = "padding: .5vh 4.6vw;"
@@ -80,7 +80,7 @@ function ChecarVazio()
     let antigo = document.getElementsByClassName("preco-antigo");
     for(i = 0; i< antigo.length; i++)
     {
-        if(antigo[i].innerHTML == "" || antigo[i].innerHTML == "&nbsp;")
+        if(antigo[i].innerHTML == "<p>&nbsp;</p>" || antigo[i].innerHTML == "&nbsp;")
         {
             antigo[i].style = "text-decoration: none";
         }
