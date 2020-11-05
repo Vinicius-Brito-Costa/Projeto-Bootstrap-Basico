@@ -69,7 +69,7 @@ if (isset($_POST['cep']) && isset($_POST['quantidade'])) {
                                 <div class='valor-total d-flex font-weight-bold text-success'>R$ <?php echo $preco_atual ?></div>
                                 <span class="frete-mensagem font-weight-bold">Frete não incluso.</span>
                                 <input type="hidden" name="id_produto" id="id_produto" value=<?php echo $id ?>>
-                                <div class="botao d-flex mb-3"><button class="btn btn-success btn-lg border border-dark shadow-sm" type="submit" onclick="alert('Função em construção')">COMPRAR</button></div>
+                                <div class="botao d-flex mb-3"><button class="btn btn-success btn-lg border border-dark shadow-sm font-weight-bold" type="submit" onclick="alert('Seu pedido foi efetuado!')">COMPRAR</button></div>
                             </div>
                         </div>
                         <div class="row mt-2 mb-3 mx-1 mx-md-0 flex-column flex-md-row justify-content-center">
@@ -80,8 +80,8 @@ if (isset($_POST['cep']) && isset($_POST['quantidade'])) {
                                 <div class="my-4 mx-1">
                                     <input id="cep" name="cep" class="form-control form-control-sm endereco-itens" onkeydown="AutoPreencherEndereco(this.value)" type="number" placeholder="Cep">
                                     <div class="row mx-1 w-100 mx-auto">
-                                        <input type="text" id="endereco" name="endereco" class="col col-11 form-control form-control-sm endereco-itens" placeholder="Endereco">
-                                        <input type="text" id="numero" name="numero" class="col col-1 form-control form-control-sm endereco-itens" placeholder="N°">
+                                        <input type="text" id="endereco" name="endereco" class="col col-9 col-md-10 col-lg-11 form-control form-control-sm endereco-itens" placeholder="Endereco">
+                                        <input type="text" id="numero" name="numero" class="col col-3 col-md-2 col-lg-1 form-control form-control-sm endereco-itens" placeholder="N°">
                                     </div>
                                     <input type="text" id="estado" name="estado" class="form-control form-control-sm endereco-itens" placeholder="Estado">
                                     <input type="text" id="cidade" name="cidade" class="form-control form-control-sm endereco-itens" placeholder="Cidade">

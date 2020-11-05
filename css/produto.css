@@ -2,6 +2,9 @@ main {
     padding-top: 100px;
     min-height: auto;
 }
+.nome-produto{
+    font-size: 2rem;;
+}
 .valor-antigo{
     font-size: .7rem;
 }
